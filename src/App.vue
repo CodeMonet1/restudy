@@ -1,13 +1,12 @@
 <template>
   <div id="app">
     <nav>
-      主分支修改
+      主分支15.40
       <router-link to="/home">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/movie">Movie</router-link> 
     </nav>
     <router-view/>
-    主分支修改2
   </div>
 </template>
 
