@@ -7,6 +7,7 @@
       <router-link to="/movie">Movie</router-link> 
     </nav>
     <router-view/>
+    主分支修改2
   </div>
 </template>
 
