@@ -2,6 +2,7 @@
   <div id="app">
     <nav>
       yz分支修改
+      yz分支修改2
       <router-link to="/home">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/movie">Movie</router-link> 
