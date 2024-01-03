@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <nav>
+      主分支修改
       <router-link to="/home">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/movie">Movie</router-link> 
