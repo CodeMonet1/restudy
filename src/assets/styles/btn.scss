@@ -1,0 +1,46 @@
+//
+@mixin textColorBtn($color) {
+  color: $color !important;
+  cursor: pointer;
+  text-decoration: underline;
+  &:hover {
+    color: lighten($color, 10%) !important;
+  }
+  &:not(:first-child) {
+    margin-left: 14px;
+  }
+}
+
+.btn-blue {
+  @include textColorBtn($base-color-blue);
+}
+.btn-green {
+  @include textColorBtn($base-color-green);
+}
+.btn-red {
+  @include textColorBtn($base-color-red);
+}
+.btn-lightBlue {
+  @include textColorBtn(#399ee5);
+}
+.btn-purple {
+  @include textColorBtn(#909afa);
+}
+.btn-yellow {
+  @include textColorBtn(#e8d298);
+}
+.btn-lightYellow {
+  @include textColorBtn(#ffcd9c);
+}
+.btn-lightGreen {
+  @include textColorBtn(#8bd068);
+}
+.btn-deepGreen {
+  @include textColorBtn(#129c3e);
+}
+.btn-deepPink {
+  @include textColorBtn(#f08d97);
+}
+.btn-pink {
+  @include textColorBtn(#ffd0d0);
+}

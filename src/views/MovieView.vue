@@ -1,6 +1,6 @@
 <template>
   <div id="about">
-    <h1 class="bg_pink font_green">This is an movie page</h1>
+    <h1 class="h1">This is an movie page</h1>
 
     <treeselect v-model="value" :multiple="true" :options="options" />
   </div>
@@ -8,9 +8,9 @@
 
 <script>
   // import the component
-  import Treeselect from '@/assets/util/@riophae/vue-treeselect'
+  import Treeselect from '@riophae/vue-treeselect'
   // import the styles
-  import '@/assets/util/@riophae/vue-treeselect/dist/vue-treeselect.css'
+  import '@riophae/vue-treeselect/dist/vue-treeselect.css'
 
   export default {
     // register the component
@@ -39,5 +39,20 @@
         } ],
       }
     },
+    created() {
+      this.init()
+    },
+    methods: {
+      init() {
+        false && console.log("m1"),
+        console.log("m2")
+      }
+    }
   }
 </script>
+
+<style lang="scss" scoped>
+.h1 {
+background-color:$base-bg-color;
+}
+</style>

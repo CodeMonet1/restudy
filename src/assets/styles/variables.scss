@@ -1,0 +1,28 @@
+
+$primary-color: #004098;
+
+$base-z-index: 999;
+
+$base-font-size-small: 12px;
+$base-font-size-default: 14px;
+$base-font-size-large: 16px;
+$base-font-size-xl: 18px;
+$base-bg-color: #F7F7F8;
+$base-font-color: #545F6E;
+$base-border-color: #EFF1F2;
+
+$base-color-green: #3DA969;
+$base-color-blue: $primary-color;
+$base-color-red: #FF6E6E;
+$base-color-deep-blue: #00A73C;
+$base-color-yellow: #fac858;
+$base-color-orange: #ff6700;
+
+// 顶部栏高度
+$base-top-bar-height: 134px;
+// 侧边栏宽度
+$base-side-bar-width: 130px;
+// 默认动画
+$base-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), border 0s,
+  background 0s, color 0s, font-size 0s;
+
