@@ -3,8 +3,8 @@
     <div class="app-wrapper">
       <!-- <side-bar class="sidebar-container" /> -->
       <div class="layout-container-verical">
-        <top-nav class="topnav-container" />
-        <app-main />
+        <!-- <top-nav class="topnav-container" /> -->
+        <!-- <app-main /> -->
       </div>
     </div>
   </div>
@@ -16,7 +16,7 @@ export default {
   name: "LayoutContainer",
   components: { SideBar, TopNav, AppMain },
   created() {
-    console.log(this.$router);
+    console.log(this.$route);
   }
 };
 </script>

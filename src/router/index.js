@@ -10,6 +10,7 @@ const routes = [
   },
   {
     path: '/layout',
+    name:'layout',
     component: () => import(/* webpackChunkName: "about" */ '../views/layout')
   },
   {
